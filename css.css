@@ -1,0 +1,298 @@
+.shiny-text {
+    background: linear-gradient(90deg,#000000, #000000, #ffffff, #000000, #000000);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+}
+
+@keyframes shine {
+    0% {
+        background-position: 200%;
+    }
+    100% {
+        background-position: 0%;
+    }
+}
+
+.oval-shadow {
+    border-radius: 50%; 
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.7); 
+}
+
+.oval-shadow-2 { 
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.7); 
+}
+
+.bg{
+    background-color: black; 
+    color:#ffffff;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-family: 'Chakra Petch';
+    font-size: 20px;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-family: 'Chakra Petch'; 
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.navbar-nav {
+    margin-left: 50px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: lightgray !important;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.btn-contact {
+    background-color: #6c757d; 
+    font-family: 'Chakra Petch'; 
+    color: white;              
+    border: none;              
+    padding: 5px 15px;       
+    border-radius: 30px;     
+    font-size: 16px;          
+    font-weight: bold;
+    transition: background-color 0.3s; 
+}
+
+.btn-contact:hover {
+    background-color: #ffffff; 
+    font-family: 'Chakra Petch'; 
+    color: black; 
+    font-weight: bold;
+    cursor: pointer;          
+}
+
+.dropdown-menu {
+    font-family: 'Chakra Petch'; 
+    font-weight: bold;
+    background-color:  #6c757d !important;
+}
+
+.dropdown-menu a {
+    color: white; 
+}
+
+.dropdown-menu a:hover {
+    color: black; 
+}
+
+.title{
+    font-family: 'Chakra Petch'; 
+    color: white; 
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.title-2{
+    font-family: 'Chakra Petch'; 
+    color: black; 
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.title-3{
+    font-family: 'Chakra Petch'; 
+    color: rgb(255, 255, 255); 
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.title-4{
+    font-family: 'Chakra Petch'; 
+    color: rgb(0, 0, 0); 
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.title-5{
+    font-family: 'Chakra Petch'; 
+    color: rgb(255, 255, 255); 
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.title-6{
+    font-family: 'Chakra Petch'; 
+    color: rgb(0, 0, 0); 
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.title-7{
+    font-family: 'Chakra Petch'; 
+    color: rgb(255, 255, 255); 
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+
+.about{
+    font-family: 'Chakra Petch'; 
+    font-weight: bold;
+    color: white; 
+    margin-top: 30px;
+    font-size: 28px;          
+}
+
+.about-2{
+    font-family: 'Chakra Petch'; 
+    font-weight: bold;
+    color: white; 
+    margin-top: 10px;
+    font-size: 20px;          
+}
+
+.exp{
+    font-family: 'Chakra Petch'; 
+    font-weight: bold;
+    color: rgb(0, 0, 0); 
+    margin-top: 60px;
+    font-size: 20px;          
+}
+
+.exp-2{
+    font-family: 'Chakra Petch'; 
+    font-weight: bold;
+    color: rgb(0, 0, 0); 
+    margin-top: 60px;
+    font-size: 20px;          
+}
+
+.exp-3{
+    font-family: 'Chakra Petch'; 
+    font-weight: bold;
+    color: rgb(255, 252, 252); 
+    font-size: 25px;  
+}
+
+.table {
+    border-radius: 10px; 
+    overflow: hidden; 
+    margin-top: 60px;
+}
+
+.skill{
+    font-family: 'Chakra Petch'; 
+    font-weight: bold;
+    color: rgb(255, 255, 255); 
+    margin-top: 60px;
+    font-size: 20px;          
+}
+
+.skill-2{
+    font-family: 'Chakra Petch'; 
+    font-weight: bold;
+    color: rgb(255, 255, 255); 
+    margin-top: 60px;
+    font-size: 20px;          
+}
+
+.skill-3{
+    font-family: 'Chakra Petch'; 
+    font-weight: bold;
+    color: rgb(0, 0, 0); 
+    font-size: 25px;  
+}
+
+
+.project{
+    font-family: 'Chakra Petch'; 
+    font-weight: bold;
+    color: rgb(0, 0, 0); 
+    margin-top: 60px;
+    font-size: 20px;          
+}
+
+.project-2{
+    font-family: 'Chakra Petch'; 
+    font-weight: bold;
+    color: rgb(0, 0, 0); 
+    margin-top: 70px;
+    font-size: 20px;          
+}
+
+.project-3{
+    font-family: 'Chakra Petch'; 
+    font-weight: bold;
+    color: rgb(0, 0, 0); 
+    margin-bottom: 20px;
+    font-size: 25px;          
+}
+
+.honor{
+    font-family: 'Chakra Petch'; 
+    font-weight: bold;
+    color: rgb(255, 255, 255); 
+    margin-top: 60px;
+    font-size: 20px;          
+}
+
+.cert{
+    font-family: 'Chakra Petch'; 
+    font-weight: bold;
+    color: rgb(0, 0, 0); 
+    margin-top: 60px;
+    font-size: 20px; 
+}
+
+.lan{
+    font-family: 'Chakra Petch'; 
+    font-weight: bold;
+    color: rgb(0, 0, 0); 
+    margin-top: 60px;
+    font-size: 20px; 
+}
+
+.referees{
+    font-family: 'Chakra Petch'; 
+    font-weight: bold;
+    color: rgb(255, 255, 255); 
+    margin-top: 60px;
+    font-size: 20px; 
+}
+
+.referees-1{
+    font-family: 'Chakra Petch'; 
+    font-weight: bold;
+    color: rgb(255, 255, 255); 
+    margin-top: 60px;
+    font-size: 25px; 
+}
+
+footer{
+    color: #ffffff;
+    background-color: black;
+}
+
+.model-1{
+    font-family: 'Chakra Petch'; 
+    font-weight: bold;
+    color: rgb(0, 0, 0); 
+    font-size: 20px; 
+}
+
+.model-2{
+    font-family: 'Chakra Petch'; 
+    font-weight: bold;
+    color: rgb(0, 0, 0); 
+    font-size: 18px; 
+}
+
+.link{
+    font-family: 'Chakra Petch'; 
+    font-weight: bold;
+    color: rgb(0, 0, 0); 
+    font-size: 15px; 
+}
